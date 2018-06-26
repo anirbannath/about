@@ -1,0 +1,163 @@
+#app-particles {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-title {
+    font-size: 1.2em;
+}
+
+.place-top-1 {
+    z-index: 1;
+}
+
+.text-lg {
+    font-size: 1.5em;
+}
+
+.text-md {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+.py-6 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.pb-ex {
+    padding-bottom: 15rem;
+}
+
+.shift-up {
+    margin-top: -12rem;
+}
+
+.shift-up-footer {
+    margin-top: -4rem;
+    padding-top: 4rem;
+}
+
+@media screen and (max-width: 991px) {
+    .shift-up-footer {
+        margin-top: -7rem;
+        padding-top: 7rem;
+    }
+}
+
+.card,
+.card.img-only img {
+    border-radius: 1rem;
+}
+
+.card-body.large {
+    padding: 2.5rem;
+}
+
+.project figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin: 0;
+}
+
+.project figure img {
+    transform: scale(1);
+    transition: .25s ease-in-out;
+}
+
+.project figure:hover img {
+    transform: scale(1.1);
+}
+
+.project figure .overlay,
+.project figure figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: .45s ease-in-out;
+    transition: .45s ease-in-out;
+}
+
+.project figure figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 3rem;
+    color: #fff;
+    z-index: 1;
+}
+
+.project figure .overlay {
+    background-color: #293347;
+    border-radius: 1rem;
+}
+
+.project figure:hover figcaption,
+.project figure:hover .overlay {
+    opacity: 1;
+}
+
+.btn {
+    border-width: 2px;
+    border-radius: 290486px;
+}
+
+.bg-primary {
+    background-color: #8b42ff !important;
+}
+
+.bg-primary2 {
+    background-color: #051127 !important;
+}
+
+.text-primary {
+    color: #8b42ff !important;
+}
+
+@media screen and (max-width: 767px) {
+    .card .row .merged:not(:last-child) .card-body {
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card .row .merged:not(:last-child) {
+        border-right: 1px solid #ddd;
+    }
+}
+
+@media (min-width: 992px) {
+    .pb-lg-3-5 {
+        padding-bottom: 1.25rem !important;
+    }
+}
+
+.footer-message {
+    font-size: 1.5rem;
+}
+
+.text-copyright {
+    font-size: 1rem;
+}
+
+.btn-social {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    padding: 12px 10px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 50%;
+}
+
+.btn:hover .fa-social {
+    opacity: 0;
+}
