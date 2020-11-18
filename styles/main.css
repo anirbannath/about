@@ -106,12 +106,13 @@ p {
 }
 
 .btn-social {
-  display: inline-block;
+  display: inline-flex;
   height: 60px;
   width: 60px;
+  align-items: center;
+  justify-content: center;
   padding: 12px 10px;
   font-size: 1.25rem;
-  line-height: 1.5;
   border-radius: 50%;
 }
 
