@@ -1,6 +1,6 @@
 # Anirban Nath
 
-[My Profile](https://anirbannath.github.io/anirbannath.website)
+[My Profile](https://anirbannath.github.io/about)
 
 Hi, I’m Anirban. Nice to meet you.
 
